@@ -1,0 +1,113 @@
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+!.env.*.example
+!**/.env.*.example
+.envrc
+.secrets/
+**/.secrets/
+
+# Private keys and local certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.certs/
+**/.certs/
+
+# Cloud and deployment tool credentials/state
+.azure/
+.aws/
+.gcloud/
+.terraform/
+.vercel/
+.copilot-azure/
+
+# Python virtual environments and packaging
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python test, type-checking, and lint caches
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+.pyright/
+.pytype/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# JavaScript dependencies and generated frontend output
+node_modules/
+**/node_modules/
+**/.vite/
+**/dist/
+coverage/
+*.tsbuildinfo
+
+# Local databases, runtime data, and user-uploaded files
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+/data/
+/uploads/
+/backend/uploads/
+/backend/app/uploads/
+
+# Logs, temporary files, and editor swap files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Operating system and IDE files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Generated evaluation reports; preserve the reports directory placeholder
+eval/reports/*.json
+eval/reports/*.csv
+eval/reports/*.html
+!eval/reports/.gitkeep
+
+# Large local database image/archive (not required to build or deploy)
+/vector.v0.8.6-pg17.zip

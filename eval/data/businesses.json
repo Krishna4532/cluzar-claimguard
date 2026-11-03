@@ -1,0 +1,144 @@
+[
+  {
+    "business_id": "biz_auraskin",
+    "name": "AuraSkin",
+    "industry": "Skincare & Personal Care",
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "products": [
+      {
+        "product_id": "prod_as_01",
+        "name": "Radiance Glow Vitamin C Serum",
+        "approved_price": 899,
+        "product_category": "Serums"
+      },
+      {
+        "product_id": "prod_as_02",
+        "name": "HydraDew Hyaluronic Gel Moisturizer",
+        "approved_price": 649,
+        "product_category": "Moisturizers"
+      },
+      {
+        "product_id": "prod_as_03",
+        "name": "Clarifying Salicylic Acid Face Cleanser",
+        "approved_price": 499,
+        "product_category": "Cleansers"
+      },
+      {
+        "product_id": "prod_as_04",
+        "name": "SunShield SPF 50 Matte Sunscreen Gel",
+        "approved_price": 599,
+        "product_category": "Sun Protection"
+      },
+      {
+        "product_id": "prod_as_05",
+        "name": "BarrierRepair Ceramide Night Cream",
+        "approved_price": 849,
+        "product_category": "Night Care"
+      }
+    ],
+    "offers": [
+      {
+        "offer_id": "off_as_01",
+        "applicable_products": [
+          "prod_as_01",
+          "prod_as_02",
+          "prod_as_04",
+          "prod_as_05"
+        ],
+        "discount_percentage": 20,
+        "validity_dates": {
+          "start_date": "2026-10-15",
+          "end_date": "2026-11-15"
+        },
+        "minimum_order_value": 999,
+        "conditions": "Valid only on purchases above INR 999 on serums, moisturizers, night cream, and sunscreens. Clarifying Salicylic Acid Face Cleanser is strictly excluded."
+      },
+      {
+        "offer_id": "off_as_02",
+        "applicable_products": [
+          "prod_as_01",
+          "prod_as_02",
+          "prod_as_03",
+          "prod_as_04",
+          "prod_as_05"
+        ],
+        "discount_percentage": 15,
+        "validity_dates": {
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
+        },
+        "minimum_order_value": 0,
+        "conditions": "Applicable once per new registered customer across all products using coupon FIRST15."
+      }
+    ]
+  },
+  {
+    "business_id": "biz_urbannest",
+    "name": "UrbanNest",
+    "industry": "Modern Furniture & Home Decor",
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "products": [
+      {
+        "product_id": "prod_un_01",
+        "name": "ErgoComfort Orthopedic Office Chair",
+        "approved_price": 14999,
+        "product_category": "Ergonomic Chairs"
+      },
+      {
+        "product_id": "prod_un_02",
+        "name": "Nordic Solid Sheesham 4-Seater Dining Table",
+        "approved_price": 24999,
+        "product_category": "Dining Furniture"
+      },
+      {
+        "product_id": "prod_un_03",
+        "name": "CloudRest Velvet 3-Seater Sofa",
+        "approved_price": 38999,
+        "product_category": "Living Room"
+      },
+      {
+        "product_id": "prod_un_04",
+        "name": "Zenith Height-Adjustable Motorized Desk",
+        "approved_price": 29999,
+        "product_category": "Desks & Workstations"
+      },
+      {
+        "product_id": "prod_un_05",
+        "name": "Aura Minimalist Bedside Table",
+        "approved_price": 4499,
+        "product_category": "Bedroom Furniture"
+      }
+    ],
+    "offers": [
+      {
+        "offer_id": "off_un_01",
+        "applicable_products": [
+          "prod_un_01",
+          "prod_un_04"
+        ],
+        "discount_percentage": 15,
+        "validity_dates": {
+          "start_date": "2026-10-01",
+          "end_date": "2026-11-30"
+        },
+        "minimum_order_value": 20000,
+        "conditions": "Applicable when purchasing ErgoComfort Office Chair or Zenith Motorized Desk with total cart value above INR 20,000."
+      },
+      {
+        "offer_id": "off_un_02",
+        "applicable_products": [
+          "prod_un_03"
+        ],
+        "discount_percentage": 25,
+        "validity_dates": {
+          "start_date": "2026-11-01",
+          "end_date": "2026-11-10"
+        },
+        "minimum_order_value": 35000,
+        "conditions": "Valid exclusively on CloudRest Velvet 3-Seater Sofa on prepaid transactions (UPI, Cards, Netbanking)."
+      }
+    ]
+  }
+]

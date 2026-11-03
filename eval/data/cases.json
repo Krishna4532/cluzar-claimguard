@@ -1,0 +1,488 @@
+[
+  {
+    "case_id": "case_as_01",
+    "business_id": "biz_auraskin",
+    "draft": "Get the ultimate radiant skin with AuraSkin Radiance Glow Vitamin C Serum! Formulated with 15% Ethyl Ascorbic Acid, our vegan serum is now available for just INR 899. Plus, enjoy guaranteed 24-hour delivery anywhere in India!",
+    "claims": [
+      {
+        "claim_id": "claim_as_01_01",
+        "text": "Formulated with 15% Ethyl Ascorbic Acid",
+        "type": "product_feature",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_01",
+            "source_text": "Formulated with 15% Ethyl Ascorbic Acid, Ferulic Acid, and Hyaluronic Acid."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_01_02",
+        "text": "available for just INR 899",
+        "type": "price",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_01",
+            "source_text": "Radiance Glow Vitamin C Serum: INR 899 (30ml)."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_01_03",
+        "text": "guaranteed 24-hour delivery anywhere in India",
+        "type": "delivery",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_03",
+            "source_text": "Metro cities (Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Chennai, Kolkata) receive delivery within 2 to 3 business days. Non-metro locations take 4 to 6 business days."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case_as_02",
+    "business_id": "biz_auraskin",
+    "draft": "Celebrate Diwali with our Festive Glow Sale! Grab flat 20% discount on all skincare items including our Clarifying Salicylic Acid Face Cleanser. This festive offer is valid from October 15, 2026 to November 15, 2026 with a minimum order value of INR 999. Stock is limited, so shop today!",
+    "claims": [
+      {
+        "claim_id": "claim_as_02_01",
+        "text": "flat 20% discount on all skincare items including our Clarifying Salicylic Acid Face Cleanser",
+        "type": "discount_percent",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_02",
+            "source_text": "Clarifying Salicylic Acid Face Cleanser is strictly excluded from this offer."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_02_02",
+        "text": "valid from October 15, 2026 to November 15, 2026 with a minimum order value of INR 999",
+        "type": "date",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_02",
+            "source_text": "Valid from October 15, 2026 to November 15, 2026 with a minimum order value of INR 999."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_02_03",
+        "text": "Stock is limited, so shop today!",
+        "type": "other",
+        "gold_verdict": "unsupported",
+        "gold_evidence": []
+      }
+    ]
+  },
+  {
+    "case_id": "case_as_03",
+    "business_id": "biz_auraskin",
+    "draft": "Garmiyon mein skin protection zaroori hai! AuraSkin SunShield SPF 50 Matte Sunscreen Gel is PA++++ broad spectrum, zero white cast, water-resistant for up to 80 minutes. Aur sabse achhi baat: Sabhi orders par free standard delivery milti hai chahe order value jo bhi ho. AuraSkin offers India's coolest water gel sunscreen.",
+    "claims": [
+      {
+        "claim_id": "claim_as_03_01",
+        "text": "PA++++ broad spectrum, zero white cast, water-resistant for up to 80 minutes",
+        "type": "product_feature",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_01",
+            "source_text": "PA++++ broad spectrum, zero white cast, water-resistant for up to 80 minutes."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_03_02",
+        "text": "Sabhi orders par free standard delivery milti hai chahe order value jo bhi ho",
+        "type": "delivery",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_03",
+            "source_text": "Free standard delivery on all domestic prepaid and COD orders across India above INR 499. Orders below INR 499 incur a flat delivery charge of INR 50."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_03_03",
+        "text": "AuraSkin offers India's coolest water gel sunscreen",
+        "type": "product_feature",
+        "gold_verdict": "unsupported",
+        "gold_evidence": []
+      }
+    ]
+  },
+  {
+    "case_id": "case_as_04",
+    "business_id": "biz_auraskin",
+    "draft": "Experience instant, feather-light skin hydration! HydraDew Hyaluronic Gel Moisturizer features an oil-free lightweight gel containing 2% multimolecular hyaluronic acid for only INR 450. Plus, enjoy complete peace of mind with our no-questions-asked refund policy even if you finish half the bottle.",
+    "claims": [
+      {
+        "claim_id": "claim_as_04_01",
+        "text": "oil-free lightweight gel containing 2% multimolecular hyaluronic acid",
+        "type": "product_feature",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_01",
+            "source_text": "Oil-free lightweight gel containing 2% multimolecular hyaluronic acid and Centella Asiatica (Cica)."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_04_02",
+        "text": "for only INR 450",
+        "type": "price",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_01",
+            "source_text": "HydraDew Hyaluronic Gel Moisturizer: INR 649 (50g)."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_04_03",
+        "text": "no-questions-asked refund policy even if you finish half the bottle",
+        "type": "return_policy",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_04",
+            "source_text": "Due to hygiene and personal care safety regulations, opened, unsealed, or partially used skincare bottles cannot be returned for buyer's remorse or change of mind."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case_as_05",
+    "business_id": "biz_auraskin",
+    "draft": "Repair damaged skin barrier as you sleep! BarrierRepair Ceramide Night Cream is priced at INR 849. If customer experiences acute allergic redness or dermatitis, customer must report within 5 days of delivery to receive store credit refund. Recommended by 9 out of 10 Indian dermatologists for sensitive skin.",
+    "claims": [
+      {
+        "claim_id": "claim_as_05_01",
+        "text": "BarrierRepair Ceramide Night Cream is priced at INR 849",
+        "type": "price",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_01",
+            "source_text": "BarrierRepair Ceramide Night Cream: INR 849 (50g)."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_05_02",
+        "text": "If customer experiences acute allergic redness or dermatitis, customer must report within 5 days of delivery to receive store credit refund",
+        "type": "return_policy",
+        "gold_verdict": "needs_human",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_04",
+            "source_text": "If customer experiences acute allergic redness or dermatitis, customer must report within 5 days of delivery with photographic evidence and dermatologist prescription to receive store credit refund."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_05_03",
+        "text": "Recommended by 9 out of 10 Indian dermatologists for sensitive skin",
+        "type": "product_feature",
+        "gold_verdict": "unsupported",
+        "gold_evidence": []
+      }
+    ]
+  },
+  {
+    "case_id": "case_as_06",
+    "business_id": "biz_auraskin",
+    "draft": "Shop with complete confidence at AuraSkin! Same-day dispatch is guaranteed for orders placed before 1:00 PM IST on business days. Also, Cash on Delivery (COD) is available up to a maximum cart value of INR 10,000. AuraSkin has been rated India's top organic beauty startup by Vogue in 2026.",
+    "claims": [
+      {
+        "claim_id": "claim_as_06_01",
+        "text": "Same-day dispatch is guaranteed for orders placed before 1:00 PM IST on business days",
+        "type": "delivery",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_03",
+            "source_text": "Same-day dispatch is guaranteed for orders placed before 1:00 PM IST on business days (Monday to Friday, excluding national public holidays)."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_06_02",
+        "text": "Cash on Delivery (COD) is available up to a maximum cart value of INR 10,000",
+        "type": "delivery",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_as_03",
+            "source_text": "Cash on Delivery (COD) is available up to a maximum cart value of INR 2,500."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_as_06_03",
+        "text": "AuraSkin has been rated India's top organic beauty startup by Vogue in 2026",
+        "type": "other",
+        "gold_verdict": "unsupported",
+        "gold_evidence": []
+      }
+    ]
+  },
+  {
+    "case_id": "case_un_01",
+    "business_id": "biz_urbannest",
+    "draft": "Upgrade your spine health with the UrbanNest ErgoComfort Orthopedic Office Chair! Features a Class-4 heavy duty hydraulic gas lift (BIFMA certified up to 136 kg capacity) and is priced at INR 14,999. Comes backed with an incredible 10-year mechanical warranty on hydraulics!",
+    "claims": [
+      {
+        "claim_id": "claim_un_01_01",
+        "text": "Class-4 heavy duty hydraulic gas lift (BIFMA certified up to 136 kg capacity)",
+        "type": "product_feature",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_01",
+            "source_text": "Class-4 heavy duty hydraulic gas lift (BIFMA certified up to 136 kg capacity), 3-year mechanical warranty."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_01_02",
+        "text": "priced at INR 14,999",
+        "type": "price",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_01",
+            "source_text": "ErgoComfort Orthopedic Office Chair: INR 14,999."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_01_03",
+        "text": "10-year mechanical warranty on hydraulics",
+        "type": "warranty",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_04",
+            "source_text": "3-year comprehensive warranty on mechanical and electrical components (Zenith desk dual motors and control box, ErgoComfort chair hydraulics and tilt mechanism)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case_un_02",
+    "business_id": "biz_urbannest",
+    "draft": "Ghar ke liye behtareen lakdi ka furniture! Our Nordic Solid Sheesham 4-Seater Dining Table is made of 100% seasoned Sheesham hardwood (Indian Rosewood) with teak finish. It comes with a 10-year structural warranty on Solid Sheesham wooden frames against termite infestation. Hamari lakdi Himalayas ke sustainable plantation se sustainably harvest ki jaati hai.",
+    "claims": [
+      {
+        "claim_id": "claim_un_02_01",
+        "text": "100% seasoned Sheesham hardwood (Indian Rosewood) with teak finish",
+        "type": "product_feature",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_01",
+            "source_text": "100% seasoned Sheesham hardwood (Indian Rosewood) with teak finish, termite-resistant kiln dried treatment, seats 4 adults comfortably."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_02_02",
+        "text": "10-year structural warranty on Solid Sheesham wooden frames against termite infestation",
+        "type": "warranty",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_04",
+            "source_text": "10-year structural warranty on Solid Sheesham wooden frames (Nordic Dining Table) against manufacturing defects, termite infestation, and seasonal wood warping."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_02_03",
+        "text": "Hamari lakdi Himalayas ke sustainable plantation se sustainably harvest ki jaati hai",
+        "type": "product_feature",
+        "gold_verdict": "unsupported",
+        "gold_evidence": []
+      }
+    ]
+  },
+  {
+    "case_id": "case_un_03",
+    "business_id": "biz_urbannest",
+    "draft": "Boost your productivity with the Zenith Height-Adjustable Motorized Desk! Features Dual electric motors, digital memory handset with 4 preset heights for effortless transitions. Take advantage of our 15% discount on ErgoComfort Office Chair and Zenith Motorized Desk from October 1, 2026 to November 30, 2026. Corporate and bulk orders receive custom discounts negotiated via enterprise sales, not via consumer coupons.",
+    "claims": [
+      {
+        "claim_id": "claim_un_03_01",
+        "text": "Dual electric motors, digital memory handset with 4 preset heights",
+        "type": "product_feature",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_01",
+            "source_text": "Dual electric motors, digital memory handset with 4 preset heights, height range from 71cm to 119cm, load capacity 100 kg, engineered hardwood tabletop (140cm x 70cm)."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_03_02",
+        "text": "15% discount on ErgoComfort Office Chair and Zenith Motorized Desk from October 1, 2026 to November 30, 2026",
+        "type": "discount_percent",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_02",
+            "source_text": "15% discount on ErgoComfort Office Chair and Zenith Motorized Desk from October 1, 2026 to November 30, 2026. Requires minimum cart value of INR 20,000."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_03_03",
+        "text": "Corporate and bulk orders receive custom discounts negotiated via enterprise sales, not via consumer coupons",
+        "type": "other",
+        "gold_verdict": "needs_human",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_02",
+            "source_text": "Corporate and bulk orders (10+ units) receive custom invoice discounts negotiated via enterprise sales, not via consumer coupons."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case_un_04",
+    "business_id": "biz_urbannest",
+    "draft": "Sink into total relaxation with the CloudRest Velvet 3-Seater Sofa for only INR 29,999! Built with a Solid pine wood internal frame, 32-density foam cushioning with pocket springs. Delivery is conducted with free stair carry to any floor without extra charge.",
+    "claims": [
+      {
+        "claim_id": "claim_un_04_01",
+        "text": "CloudRest Velvet 3-Seater Sofa for only INR 29,999",
+        "type": "price",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_01",
+            "source_text": "CloudRest Velvet 3-Seater Sofa: INR 38,999."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_04_02",
+        "text": "Solid pine wood internal frame, 32-density foam cushioning with pocket springs",
+        "type": "product_feature",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_01",
+            "source_text": "Solid pine wood internal frame, 32-density foam cushioning with pocket springs, stain-resistant premium velvet upholstery available in Royal Blue and Emerald Green."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_04_03",
+        "text": "free stair carry to any floor without extra charge",
+        "type": "delivery",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_03",
+            "source_text": "Stair carry beyond the 3rd floor without a working service elevator requires an additional porterage charge of INR 300 per floor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case_un_05",
+    "business_id": "biz_urbannest",
+    "draft": "UrbanNest makes furnishing your dream home easy! Standard shipping is completely free for all orders above INR 10,000. Furthermore, Tier 1 metro cities delivered within 5 to 7 business days from order confirmation. Customers get free white-glove installation and assembly for any furniture piece in all cities.",
+    "claims": [
+      {
+        "claim_id": "claim_un_05_01",
+        "text": "Standard shipping is completely free for all orders above INR 10,000",
+        "type": "delivery",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_03",
+            "source_text": "Standard shipping is completely free for all orders above INR 10,000."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_05_02",
+        "text": "Tier 1 metro cities delivered within 5 to 7 business days from order confirmation",
+        "type": "delivery",
+        "gold_verdict": "supported",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_03",
+            "source_text": "Tier 1 metro cities delivered within 5 to 7 business days from order confirmation."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_05_03",
+        "text": "Customers get free white-glove installation and assembly for any furniture piece in all cities",
+        "type": "delivery",
+        "gold_verdict": "needs_human",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_03",
+            "source_text": "Free professional doorstep white-glove installation and assembly included for ErgoComfort Office Chair, Nordic Dining Table, and Zenith Motorized Desk in select 25 metropolitan zones."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "case_un_06",
+    "business_id": "biz_urbannest",
+    "draft": "Rest easy with our furniture trial! We provide an unconditional 30-day trial for CloudRest Velvet 3-Seater Sofa with instant return. Our return pickup is dispatched immediately without physical pre-inspection by UrbanNest logistics technician. Ranked India's top luxury sofa maker at the 2025 Architecture Expo!",
+    "claims": [
+      {
+        "claim_id": "claim_un_06_01",
+        "text": "unconditional 30-day trial for CloudRest Velvet 3-Seater Sofa with instant return",
+        "type": "return_policy",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_04",
+            "source_text": "14-day hassle-free return window for chairs and tables if returned in original protective packaging without scratches or structural modifications. Mattresses and custom upholstered sofas are non-returnable unless received structurally damaged."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_06_02",
+        "text": "without physical pre-inspection by UrbanNest logistics technician",
+        "type": "return_policy",
+        "gold_verdict": "contradicted",
+        "gold_evidence": [
+          {
+            "document_id": "doc_un_04",
+            "source_text": "Return pickup requires physical pre-inspection by UrbanNest logistics technician before transit dispatch."
+          }
+        ]
+      },
+      {
+        "claim_id": "claim_un_06_03",
+        "text": "Ranked India's top luxury sofa maker at the 2025 Architecture Expo!",
+        "type": "other",
+        "gold_verdict": "unsupported",
+        "gold_evidence": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+# RAG, Embedding, and Agent Orchestration Dependencies
+# Note: Install after base backend requirements.txt is established.
+
+# LangChain ecosystem
+langchain>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langgraph>=0.2.0,<0.3.0
+
+# Local embeddings (Sentence-Transformers / HuggingFace)
+# Provides free, offline semantic embeddings without paid API dependencies
+sentence-transformers>=3.1.0,<4.0.0
+

@@ -1,0 +1,24 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: claimguard-postgres
+    restart: unless-stopped
+    environment:
+      # Development-only credentials (NOT for production use)
+      POSTGRES_DB: claimguard_dev
+      POSTGRES_USER: claimguard
+      POSTGRES_PASSWORD: claimguard_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U claimguard -d claimguard_dev"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+    driver: local
+

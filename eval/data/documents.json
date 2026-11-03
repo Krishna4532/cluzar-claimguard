@@ -1,0 +1,58 @@
+[
+  {
+    "document_id": "doc_as_01",
+    "business_id": "biz_auraskin",
+    "document_type": "product_catalog_and_pricing",
+    "title": "AuraSkin Product Catalog, Formulations & Price List 2026",
+    "content": "AuraSkin Master Product Specification and Price Guide (Updated Q4 2026):\n\n1. Radiance Glow Vitamin C Serum: INR 899 (30ml). Formulated with 15% Ethyl Ascorbic Acid, Ferulic Acid, and Hyaluronic Acid. 100% vegan, fragrance-free, and dermatologically tested on sensitive skin.\n\n2. HydraDew Hyaluronic Gel Moisturizer: INR 649 (50g). Oil-free lightweight gel containing 2% multimolecular hyaluronic acid and Centella Asiatica (Cica). Non-comedogenic and ideal for oily to combination skin types.\n\n3. Clarifying Salicylic Acid Face Cleanser: INR 499 (150ml). 2% Encapsulated Salicylic Acid with Zinc PCA. Sulfate-free formulation designed for acne-prone skin to gently exfoliate pores.\n\n4. SunShield SPF 50 Matte Sunscreen Gel: INR 599 (50g). PA++++ broad spectrum, zero white cast, water-resistant for up to 80 minutes. Infused with Niacinamide and Green Tea extract.\n\n5. BarrierRepair Ceramide Night Cream: INR 849 (50g). Formulated with 3 essential ceramides (EOP, NP, AP) with 1% colloidal oat to replenish lipid barriers overnight."
+  },
+  {
+    "document_id": "doc_as_02",
+    "business_id": "biz_auraskin",
+    "document_type": "offer_policy",
+    "title": "AuraSkin Promotional Offers, Coupons & Campaign Rules Q4 2026",
+    "content": "AuraSkin Marketing Policy and Active Coupon Terms (2026):\n\n1. Festive Glow Campaign: Flat 20% discount on Vitamin C Serum, HydraDew Moisturizer, SunShield Sunscreen, and BarrierRepair Night Cream. Valid from October 15, 2026 to November 15, 2026 with a minimum order value of INR 999. Clarifying Salicylic Acid Face Cleanser is strictly excluded from this offer.\n\n2. First Order Welcome Offer: Coupon FIRST15 provides 15% discount for first-time customers across all products, valid from January 1, 2026 to December 31, 2026 with no minimum order value. Limited to one redemption per account.\n\n3. Coupon Stacking Rules: Promotional codes cannot be clubbed together. Only one coupon code may be applied per checkout session."
+  },
+  {
+    "document_id": "doc_as_03",
+    "business_id": "biz_auraskin",
+    "document_type": "delivery_policy",
+    "title": "AuraSkin Domestic Shipping, Dispatch & COD Guidelines",
+    "content": "AuraSkin Shipping and Logistics Operating Terms:\n\n1. Shipping Charges: Free standard delivery on all domestic prepaid and COD orders across India above INR 499. Orders below INR 499 incur a flat delivery charge of INR 50.\n\n2. Delivery Timelines: Metro cities (Delhi-NCR, Mumbai, Bengaluru, Hyderabad, Chennai, Kolkata) receive delivery within 2 to 3 business days. Non-metro locations take 4 to 6 business days. Northeast states and remote island territories require up to 8 business days.\n\n3. Dispatch Schedule: Same-day dispatch is guaranteed for orders placed before 1:00 PM IST on business days (Monday to Friday, excluding national public holidays).\n\n4. Cash on Delivery: Cash on Delivery (COD) is available up to a maximum cart value of INR 2,500. Orders above this threshold require online prepayment."
+  },
+  {
+    "document_id": "doc_as_04",
+    "business_id": "biz_auraskin",
+    "document_type": "returns_and_warranty_policy",
+    "title": "AuraSkin Returns, Damaged Replacements & Allergy Guarantee",
+    "content": "AuraSkin Customer Satisfaction, Returns, and Adverse Reaction Policy:\n\n1. Transit Damage or Expiry: 7-day replacement window from delivery date for items received damaged, expired, or defective with unboxing video proof.\n\n2. Opened Products: Due to hygiene and personal care safety regulations, opened, unsealed, or partially used skincare bottles cannot be returned for buyer's remorse or change of mind.\n\n3. Adverse Reaction Guarantee: If customer experiences acute allergic redness or dermatitis, customer must report within 5 days of delivery with photographic evidence and dermatologist prescription to receive store credit refund."
+  },
+  {
+    "document_id": "doc_un_01",
+    "business_id": "biz_urbannest",
+    "document_type": "product_catalog_and_pricing",
+    "title": "UrbanNest Master Product Pricing & Engineering Specs 2026",
+    "content": "UrbanNest Catalog and Technical Specifications (2026):\n\n1. ErgoComfort Orthopedic Office Chair: INR 14,999. High-density molded foam, breathable Korean mesh backrest, 4D adjustable armrests, Class-4 heavy duty hydraulic gas lift (BIFMA certified up to 136 kg capacity), 3-year mechanical warranty.\n\n2. Nordic Solid Sheesham 4-Seater Dining Table: INR 24,999. 100% seasoned Sheesham hardwood (Indian Rosewood) with teak finish, termite-resistant kiln dried treatment, seats 4 adults comfortably. Table dimensions: 115cm length x 75cm width x 76cm height.\n\n3. CloudRest Velvet 3-Seater Sofa: INR 38,999. Solid pine wood internal frame, 32-density foam cushioning with pocket springs, stain-resistant premium velvet upholstery available in Royal Blue and Emerald Green.\n\n4. Zenith Height-Adjustable Motorized Desk: INR 29,999. Dual electric motors, digital memory handset with 4 preset heights, height range from 71cm to 119cm, load capacity 100 kg, engineered hardwood tabletop (140cm x 70cm).\n\n5. Aura Minimalist Bedside Table: INR 4,499. Engineered wood with walnut laminate finish, single soft-close drawer with solid brass knob."
+  },
+  {
+    "document_id": "doc_un_02",
+    "business_id": "biz_urbannest",
+    "document_type": "offer_policy",
+    "title": "UrbanNest Seasonal Offers, Discount Conditions & Corporate Terms",
+    "content": "UrbanNest Official Promotional Framework:\n\n1. WorkFromHome Ergonomic Upgrade: 15% discount on ErgoComfort Office Chair and Zenith Motorized Desk from October 1, 2026 to November 30, 2026. Requires minimum cart value of INR 20,000.\n\n2. Living Room Mega Makeover: 25% discount exclusively on CloudRest Velvet 3-Seater Sofa from November 1, 2026 to November 10, 2026. Requires minimum order value of INR 35,000 and is valid exclusively on prepaid orders (UPI, Netbanking, Credit/Debit cards).\n\n3. Enterprise and Custom Orders: Corporate and bulk orders (10+ units) receive custom invoice discounts negotiated via enterprise sales, not via consumer coupons."
+  },
+  {
+    "document_id": "doc_un_03",
+    "business_id": "biz_urbannest",
+    "document_type": "delivery_policy",
+    "title": "UrbanNest Delivery, Logistics & White-Glove Assembly Terms",
+    "content": "UrbanNest Delivery and White-Glove Installation Guidelines:\n\n1. Delivery Timelines: Tier 1 metro cities delivered within 5 to 7 business days from order confirmation. Tier 2 and Tier 3 cities delivered in 8 to 14 business days.\n\n2. White-Glove Assembly: Free professional doorstep white-glove installation and assembly included for ErgoComfort Office Chair, Nordic Dining Table, and Zenith Motorized Desk in select 25 metropolitan zones.\n\n3. Shipping Charges: Standard shipping is completely free for all orders above INR 10,000. For orders below INR 10,000, a flat heavy-shipment logistics fee of INR 750 applies.\n\n4. Multi-Floor Handling: Delivery is conducted via specialized ground transport up to the customer's doorstep or apartment elevator lobby. Stair carry beyond the 3rd floor without a working service elevator requires an additional porterage charge of INR 300 per floor."
+  },
+  {
+    "document_id": "doc_un_04",
+    "business_id": "biz_urbannest",
+    "document_type": "returns_and_warranty_policy",
+    "title": "UrbanNest Standard Warranty, Trial Period & Return Policy",
+    "content": "UrbanNest Warranty and Return Specifications:\n\n1. Structural Wooden Frame Warranty: 10-year structural warranty on Solid Sheesham wooden frames (Nordic Dining Table) against manufacturing defects, termite infestation, and seasonal wood warping.\n\n2. Mechanical & Electrical Warranty: 3-year comprehensive warranty on mechanical and electrical components (Zenith desk dual motors and control box, ErgoComfort chair hydraulics and tilt mechanism).\n\n3. Soft Furnishing Warranty: 1-year warranty on sofa upholstery, stitching, and cushion foam resilience for CloudRest 3-Seater Sofa. Normal fabric fading from direct sunlight exposure is excluded.\n\n4. Return Period: 14-day hassle-free return window for chairs and tables if returned in original protective packaging without scratches or structural modifications. Mattresses and custom upholstered sofas are non-returnable unless received structurally damaged.\n\n5. Return Inspection: Return pickup requires physical pre-inspection by UrbanNest logistics technician before transit dispatch."
+  }
+]
